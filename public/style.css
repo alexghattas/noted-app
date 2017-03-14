@@ -153,6 +153,7 @@ body {
 .overlay {
 	visibility: hidden;
 	opacity: 0;
+	z-index: 10;
 	transition: all 0.3s ease;
 	position: absolute;
 }
